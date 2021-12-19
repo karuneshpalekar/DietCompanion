@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".presentation.home.HomeFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_fifty_dp"
+        android:background="@color/deep_orange"
+        app:cardCornerRadius="@dimen/ten_dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/twenty_dp"
+            android:layout_marginTop="@dimen/thirty_dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/hello"
+            android:textColor="@color/fireflix_white"
+            android:textSize="@dimen/twenty_five_sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/twenty_dp"
+            android:layout_marginTop="@dimen/five_dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text=""
+            android:textColor="@color/fireflix_white"
+            android:textSize="@dimen/thirty_sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hello" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/recommendation_diet"
+        android:layout_width="@dimen/one_fifty_dp"
+        android:layout_height="@dimen/one_fifty_dp"
+        android:layout_marginStart="@dimen/thirty_five_dp"
+        android:layout_marginTop="@dimen/twenty_dp"
+        android:layout_marginEnd="@dimen/twenty_dp"
+        android:layout_marginBottom="@dimen/thirty_dp"
+        android:background="@drawable/ripple"
+        android:backgroundTint="@color/background"
+        android:elevation="@dimen/ten_dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:paddingStart="@dimen/eight_dp"
+        android:paddingTop="@dimen/five_dp"
+        android:paddingEnd="@dimen/eight_dp"
+        android:paddingBottom="@dimen/five_dp"
+        android:textColor="@color/fireflix_white"
+        android:textSize="@dimen/fifteen_sp"
+        app:cardBackgroundColor="@color/background"
+        app:cardCornerRadius="@dimen/twenty_dp"
+        app:cardElevation="@dimen/ten_dp"
+        app:cornerRadius="@dimen/fifty_dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/intro"
+        app:strokeColor="@color/deep_orange"
+        app:strokeWidth="0.8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/diet_icon"
+                android:layout_width="@dimen/sixty_dp"
+                android:layout_height="@dimen/sixty_dp"
+                android:layout_marginStart="@dimen/fifteen_sp"
+                android:layout_marginTop="@dimen/fifteen_sp"
+                android:background="@drawable/ic_diet"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/fifteen_sp"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:text="@string/diet"
+                android:textAlignment="textEnd"
+                android:textColor="@color/fireflix_orange"
+                android:textSize="@dimen/twenty_five_sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/diet_icon" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/navigate_nutrition"
+        android:layout_width="@dimen/one_fifty_dp"
+        android:layout_height="@dimen/one_fifty_dp"
+        android:layout_marginStart="@dimen/thirty_five_dp"
+        android:layout_marginTop="@dimen/twenty_dp"
+        android:layout_marginEnd="@dimen/twenty_dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/ripple"
+        android:backgroundTint="@color/background"
+        android:elevation="10dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:paddingStart="8dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/fireflix_white"
+        android:textSize="15sp"
+        app:cardBackgroundColor="@color/background"
+        app:cardCornerRadius="@dimen/twenty_dp"
+        app:cardElevation="10dp"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toEndOf="@id/recommendation_diet"
+        app:layout_constraintTop_toBottomOf="@id/intro"
+        app:strokeColor="@color/deep_orange"
+        app:strokeWidth="0.8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/nutrition_icon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_round_food_bank"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15sp"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:text="@string/nutrition"
+                android:textAlignment="textEnd"
+                android:textColor="@color/fireflix_orange"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/nutrition_icon" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/navigate_to_imageFrag"
+        android:layout_width="@dimen/one_fifty_dp"
+        android:layout_height="@dimen/one_fifty_dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="@dimen/twenty_dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/ripple"
+        android:backgroundTint="@color/background"
+        android:elevation="10dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:paddingStart="8dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/fireflix_white"
+        android:textSize="15sp"
+        app:cardBackgroundColor="@color/background"
+        app:cardCornerRadius="@dimen/twenty_dp"
+        app:cardElevation="10dp"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recommendation_diet"
+        app:strokeColor="@color/deep_orange"
+        app:strokeWidth="0.8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/take_picture_icon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_camera"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15sp"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:text="@string/capture_image"
+                android:textAlignment="textEnd"
+                android:textColor="@color/fireflix_orange"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/take_picture_icon" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/navigate_captured_images"
+        android:layout_width="@dimen/one_fifty_dp"
+        android:layout_height="@dimen/one_fifty_dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/ripple"
+        android:backgroundTint="@color/background"
+        android:elevation="10dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:paddingStart="8dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/fireflix_white"
+        android:textSize="15sp"
+        app:cardBackgroundColor="@color/background"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toEndOf="@id/navigate_to_imageFrag"
+        app:layout_constraintTop_toBottomOf="@id/navigate_nutrition"
+        app:strokeColor="@color/deep_orange"
+        app:strokeWidth="0.8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/gallery_icon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic__image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15sp"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:text="@string/gallery"
+                android:textAlignment="textEnd"
+                android:textColor="@color/fireflix_orange"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/gallery_icon" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/navigate_to_support"
+        android:layout_width="@dimen/one_fifty_dp"
+        android:layout_height="@dimen/one_fifty_dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/ripple"
+        android:backgroundTint="@color/background"
+        android:elevation="10dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:paddingStart="8dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/fireflix_white"
+        android:textSize="15sp"
+        app:cardBackgroundColor="@color/background"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/navigate_to_imageFrag"
+        app:strokeColor="@color/deep_orange"
+        app:strokeWidth="0.8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/support_icon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_round_anchor"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15sp"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:text="@string/support"
+                android:textAlignment="textEnd"
+                android:textColor="@color/fireflix_orange"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/support_icon" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/nutrition_history"
+        android:layout_width="@dimen/one_fifty_dp"
+        android:layout_height="@dimen/one_fifty_dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/ripple"
+        android:backgroundTint="@color/background"
+        android:elevation="10dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:paddingStart="8dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/fireflix_white"
+        android:textSize="15sp"
+        app:cardBackgroundColor="@color/background"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toEndOf="@id/navigate_to_support"
+        app:layout_constraintTop_toBottomOf="@id/navigate_captured_images"
+        app:strokeColor="@color/deep_orange"
+        app:strokeWidth="0.8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/history_icon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_history"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15sp"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:text="@string/history"
+                android:textAlignment="textEnd"
+                android:textColor="@color/fireflix_orange"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/history_icon" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

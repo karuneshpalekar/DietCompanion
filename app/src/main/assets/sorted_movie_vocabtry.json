@@ -1,0 +1,98 @@
+[
+  {
+    "title": "HightCarbDiets (2001)",
+    "id": 5,
+    "genres": [
+      "WeightGain"
+    ],
+    "count": 15
+  },
+  {
+    "title": "LowFatDiets (2002)",
+    "id": 7,
+    "genres": [
+      "WeightLoss"
+    ],
+    "count": 15
+  },
+  {
+    "title": "MediterraneanDiet (2006)",
+    "id": 8,
+    "genres": [
+      "WeightLoss"
+    ],
+    "count": 15
+  },
+  {
+    "title": "PlantBasedDiets (2005)",
+    "id": 3,
+    "genres": [
+      "WeightLoss"
+    ],
+    "count": 14
+  },
+  {
+    "title": "WeightWatchers (2002)",
+    "id": 10,
+    "genres": [
+      "WeightLoss"
+    ],
+    "count": 14
+  },
+  {
+    "title": "PaleoDiet (2003)",
+    "id": 6,
+    "genres": [
+      "WeightLoss"
+    ],
+    "count": 13
+  },
+  {
+    "title": "LowCarbDiets (2002)",
+    "id": 4,
+    "genres": [
+      "WeightLoss"
+    ],
+    "count": 12
+  },
+  {
+    "title": "IntermittentFasting (2000)",
+    "id": 1,
+    "genres": [
+      "WeightLoss"
+    ],
+    "count": 11
+  },
+  {
+    "title": "VegetarianDiet (2004)",
+    "id": 9,
+    "genres": [
+      "WeightGain"
+    ],
+    "count": 11
+  },
+  {
+    "title": "DashDiet (2005)",
+    "id": 12,
+    "genres": [
+      "WeightLoss"
+    ],
+    "count": 10
+  },
+  {
+    "title": "VeganDiet (2006)",
+    "id": 11,
+    "genres": [
+      "WeightGain"
+    ],
+    "count": 8
+  },
+  {
+    "title": "AnimalBasedDiets (2005)",
+    "id": 2,
+    "genres": [
+      "WeightGain"
+    ],
+    "count": 7
+  }
+]

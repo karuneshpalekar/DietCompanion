@@ -1,0 +1,14 @@
+{
+  "client_id" : "71c4e1f3-6b73-421c-a05a-2d1e5a4b7c47",
+  "redirect_uri" : "msauth://com.karunesh.azureauth/w5G662mc4o81BUzLaFO2xjZlnHw%3D",
+  "account_mode" : "MULTIPLE",
+  "broker_redirect_uri_registered": false,
+  "authorities": [
+    {
+      "type": "B2C",
+      "authority_url": "https://karuneshb2c.b2clogin.com/karuneshb2c.onmicrosoft.com/B2C_1_signupsignin1/",
+      "default": true
+    }
+  ],
+  "authorization_user_agent": "WEBVIEW"
+}

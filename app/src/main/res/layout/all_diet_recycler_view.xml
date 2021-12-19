@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/all_diet_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/fifteen_dp"
+    android:layout_marginTop="@dimen/five_dp"
+    android:layout_marginEnd="@dimen/fifteen_dp"
+    android:background="@color/card"
+    android:backgroundTint="@color/card"
+    android:elevation="@dimen/twenty_dp"
+    app:cardCornerRadius="@dimen/fifteen_dp"
+    app:strokeColor="@color/black"
+    app:strokeWidth="0.5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/five_dp"
+        android:layout_marginEnd="@dimen/five_dp">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/all_diet_check_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/five_dp"
+            android:layout_marginEnd="@dimen/five_dp"
+            android:layout_marginBottom="@dimen/ten_dp"
+            android:buttonTint="@color/black"
+            android:paddingStart="@dimen/five_dp"
+            android:paddingEnd="@dimen/five_dp"
+            android:text="@string/tick_for_similar_recommendation"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/diet_type" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/seven_dp"
+            android:layout_marginTop="@dimen/twenty_five_dp"
+            android:layout_marginEnd="@dimen/five_dp"
+            android:fontFamily="@font/roboto"
+            android:paddingStart="@dimen/two_dp"
+            android:paddingEnd="@dimen/two_dp"
+            android:text="@string/diet_name"
+            android:textColor="@color/fireflix_orange"
+            android:textSize="@dimen/fifteen_sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/diet_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/five_dp"
+            android:layout_marginTop="@dimen/fifteen_dp"
+            android:layout_marginEnd="@dimen/five_dp"
+            android:fontFamily="@font/roboto_light"
+            android:paddingStart="@dimen/two_dp"
+            android:paddingEnd="@dimen/two_dp"
+            android:textColor="@color/fireflix_black"
+            android:textSize="@dimen/twenty_sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/name" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/seven_dp"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:layout_marginEnd="@dimen/five_dp"
+            android:fontFamily="@font/roboto"
+            android:paddingStart="@dimen/two_dp"
+            android:paddingEnd="@dimen/two_dp"
+            android:text="@string/diet_type"
+            android:textColor="@color/fireflix_orange"
+            android:textSize="@dimen/fifteen_sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/diet_name" />
+
+        <TextView
+            android:id="@+id/diet_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/five_dp"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:layout_marginEnd="@dimen/five_dp"
+            android:layout_marginBottom="@dimen/ten_dp"
+            android:fontFamily="@font/roboto_light"
+            android:paddingStart="@dimen/two_dp"
+            android:paddingEnd="@dimen/two_dp"
+            android:textColor="@color/fireflix_black"
+            android:textSize="@dimen/fifteen_dp"
+            app:layout_constraintBottom_toTopOf="@id/all_diet_check_box"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/type" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

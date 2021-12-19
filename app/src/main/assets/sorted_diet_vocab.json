@@ -1,0 +1,320 @@
+[
+  {
+    "id": 17,
+    "title": "MayoClinicDiet",
+    "dietType": "Balanced",
+    "count": 3462
+  },
+  {
+    "id": 47,
+    "title": "HMRProgram",
+    "dietType": "Low-Calorie",
+    "count": 3460
+  },
+  {
+    "id": 48,
+    "title": "LemonadeDiet",
+    "dietType": "Gluten-Free",
+    "count": 3401
+  },
+  {
+    "id": 25,
+    "title": "VeganDiet",
+    "dietType": "Vegan",
+    "count": 3392
+  },
+  {
+    "id": 43,
+    "title": "3-DayDiet",
+    "dietType": "Low-Calorie",
+    "count": 3312
+  },
+  {
+    "id": 10,
+    "title": "TheFlexitarianDiet",
+    "dietType": "Diabetes",
+    "count": 3303
+  },
+  {
+    "id": 26,
+    "title": "VegetarianDiet",
+    "dietType": "Vegetarian",
+    "count": 3239
+  },
+  {
+    "id": 30,
+    "title": "AIPDiet",
+    "dietType": "Elimination",
+    "count": 3219
+  },
+  {
+    "id": 50,
+    "title": "SlimFastDiet",
+    "dietType": "Low-Carb",
+    "count": 3177
+  },
+  {
+    "id": 20,
+    "title": "NordicDiet",
+    "dietType": "Heart-Disease",
+    "count": 3104
+  },
+  {
+    "id": 27,
+    "title": "VolumetricsDiet",
+    "dietType": "Gluten-Free",
+    "count": 3085
+  },
+  {
+    "id": 29,
+    "title": "ZoneDiet",
+    "dietType": "Vegan",
+    "count": 3042
+  },
+  {
+    "id": 21,
+    "title": "NutritarianDiet",
+    "dietType": "Diabetes",
+    "count": 3033
+  },
+  {
+    "id": 24,
+    "title": "SuperchargedHormoneDiet",
+    "dietType": "Gluten-Free",
+    "count": 3026
+  },
+  {
+    "id": 49,
+    "title": "NutrisystemDiet",
+    "dietType": "Low-Calorie",
+    "count": 3002
+  },
+  {
+    "id": 15,
+    "title": "JennyCraigDiet",
+    "dietType": "Low-Fat",
+    "count": 2996
+  },
+  {
+    "id": 31,
+    "title": "AtkinsDiet",
+    "dietType": "Low-Carb",
+    "count": 2979
+  },
+  {
+    "id": 1,
+    "title": "17DayDiet",
+    "dietType": "Balanced",
+    "count": 2972
+  },
+  {
+    "id": 14,
+    "title": "IntermittentFasting",
+    "dietType": "Low-Fat",
+    "count": 2958
+  },
+  {
+    "id": 4,
+    "title": "Dr.Weil’sAnti-InflammatoryDiet",
+    "dietType": "Balanced",
+    "count": 2922
+  },
+  {
+    "id": 9,
+    "title": "FlatBellyDiet",
+    "dietType": "Balanced",
+    "count": 2832
+  },
+  {
+    "id": 22,
+    "title": "SirtfoodDiet",
+    "dietType": "Gluten-Free",
+    "count": 2796
+  },
+  {
+    "id": 44,
+    "title": "BodyResetDiet",
+    "dietType": "Low-Calorie",
+    "count": 2790
+  },
+  {
+    "id": 6,
+    "title": "BiggestLoserDiet",
+    "dietType": "Vegetarian",
+    "count": 2778
+  },
+  {
+    "id": 28,
+    "title": "WeightWatchersDiet",
+    "dietType": "Vegan",
+    "count": 2766
+  },
+  {
+    "id": 41,
+    "title": "ModifiedKetoDiet",
+    "dietType": "High-Protein",
+    "count": 2733
+  },
+  {
+    "id": 2,
+    "title": "AbsDiet",
+    "dietType": "Balanced",
+    "count": 2722
+  },
+  {
+    "id": 52,
+    "title": "MINDDiet",
+    "dietType": "Diabetes",
+    "count": 2694
+  },
+  {
+    "id": 5,
+    "title": "AsianDiet",
+    "dietType": "Balanced",
+    "count": 2683
+  },
+  {
+    "id": 34,
+    "title": "KetoDiet",
+    "dietType": "Low-Carb",
+    "count": 2658
+  },
+  {
+    "id": 3,
+    "title": "AlkalineDiet",
+    "dietType": "Balanced",
+    "count": 2642
+  },
+  {
+    "id": 23,
+    "title": "SparkSolutionDiet",
+    "dietType": "Gluten-Free",
+    "count": 2638
+  },
+  {
+    "id": 45,
+    "title": "CookieDiet",
+    "dietType": "Vegetarian",
+    "count": 2637
+  },
+  {
+    "id": 39,
+    "title": "SouthBeachDiet",
+    "dietType": "Vegan",
+    "count": 2599
+  },
+  {
+    "id": 19,
+    "title": "Noom",
+    "dietType": "Easy-to-follow",
+    "count": 2586
+  },
+  {
+    "id": 12,
+    "title": "Gluten-FreeDiet",
+    "dietType": "Gluten-Free",
+    "count": 2570
+  },
+  {
+    "id": 32,
+    "title": "DukanDiet",
+    "dietType": "High-Protein",
+    "count": 2558
+  },
+  {
+    "id": 53,
+    "title": "TLCDiet",
+    "dietType": "Low-Fat",
+    "count": 2539
+  },
+  {
+    "id": 42,
+    "title": "OPTAVIA",
+    "dietType": "High-Protein",
+    "count": 2519
+  },
+  {
+    "id": 38,
+    "title": "RawFoodDiet",
+    "dietType": "Low-Fat",
+    "count": 2514
+  },
+  {
+    "id": 8,
+    "title": "TheEngine2Diet",
+    "dietType": "Gluten-Free",
+    "count": 2512
+  },
+  {
+    "id": 11,
+    "title": "GAPSDIET",
+    "dietType": "High-Protein",
+    "count": 2415
+  },
+  {
+    "id": 33,
+    "title": "Eco-AtkinsDiet",
+    "dietType": "Elimination",
+    "count": 2412
+  },
+  {
+    "id": 13,
+    "title": "Glycemic-IndexDiet",
+    "dietType": "Elimination",
+    "count": 2368
+  },
+  {
+    "id": 7,
+    "title": "DASHDiet",
+    "dietType": "Heart-Disease",
+    "count": 2317
+  },
+  {
+    "id": 46,
+    "title": "TheFast",
+    "dietType": "Low-Calorie",
+    "count": 2306
+  },
+  {
+    "id": 18,
+    "title": "MediterraneanDiet",
+    "dietType": "Easy-to-follow",
+    "count": 2242
+  },
+  {
+    "id": 40,
+    "title": "Whole30Diet",
+    "dietType": "Gluten-Free",
+    "count": 2241
+  },
+  {
+    "id": 35,
+    "title": "MacrobioticDiet",
+    "dietType": "Vegan",
+    "count": 2235
+  },
+  {
+    "id": 36,
+    "title": "OrnishDiet",
+    "dietType": "Heart-Disease",
+    "count": 2086
+  },
+  {
+    "id": 16,
+    "title": "LowFODMAPDiet",
+    "dietType": "Vegetarian",
+    "count": 2045
+  },
+  {
+    "id": 51,
+    "title": "TheFertilityDiet",
+    "dietType": "Easy-to-follow",
+    "count": 2017
+  },
+  {
+    "id": 37,
+    "title": "PaleoDiet",
+    "dietType": "High-Protein",
+    "count": 2001
+  }
+]

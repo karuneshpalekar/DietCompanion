@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="diet_array">
+        <item>MayoClinic</item>
+        <item>HMRProgram</item>
+        <item>Lemonade</item>
+        <item>Vegan</item>
+        <item>3Day</item>
+        <item>Flexitarian</item>
+        <item>Vegetarian</item>
+        <item>AIP</item>
+        <item>SlimFast</item>
+        <item>Nordic</item>
+        <item>Volumetrics</item>
+        <item>Zone</item>
+        <item>Nutritarian</item>
+        <item>SuperchargedHormone</item>
+        <item>Nutrisystem</item>
+        <item>JennyCraig</item>
+        <item>Atkins</item>
+        <item>17Day</item>
+        <item>DrWeilsAntiInflammatory</item>
+        <item>DrWeilsAntiInflammatory</item>
+        <item>FlatBelly</item>
+        <item>Sirtfood</item>
+        <item>BodyReset</item>
+        <item>BiggestLoser</item>
+        <item>WeightWatchers</item>
+        <item>ModifiedKeto</item>
+        <item>Abs</item>
+        <item>MIND</item>
+        <item>Asian</item>
+        <item>Keto</item>
+        <item>Alkaline</item>
+        <item>SparkSolution</item>
+        <item>Cookie</item>
+        <item>SouthBeach</item>
+        <item>Noom</item>
+        <item>GlutenFree</item>
+        <item>Dukan</item>
+        <item>TLC</item>
+        <item>OPTAVIA</item>
+        <item>RawFood</item>
+        <item>TheEngine2</item>
+        <item>GAPS</item>
+        <item>EcoAtkins</item>
+        <item>GlycemicIndex</item>
+        <item>DASH</item>
+        <item>TheFast</item>
+        <item>Mediterranean</item>
+        <item>Whole30</item>
+        <item>Macrobiotic</item>
+        <item>Ornish</item>
+        <item>LowFodmap</item>
+        <item>TheFertility</item>
+        <item>Paleo</item>
+
+    </string-array>
+</resources>

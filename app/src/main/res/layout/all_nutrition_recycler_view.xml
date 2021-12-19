@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/all_nutrition_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/fifteen_dp"
+    android:layout_marginTop="@dimen/two_dp"
+    android:layout_marginEnd="@dimen/fifteen_dp"
+    android:layout_marginBottom="@dimen/two_dp"
+    android:background="@color/background"
+    android:backgroundTint="@color/background"
+    app:cardCornerRadius="@dimen/fifteen_dp"
+    app:strokeColor="@color/fireflix_black"
+    app:strokeWidth="0.5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/five_dp"
+        android:layout_marginEnd="@dimen/five_dp">
+
+        <TextView
+            android:id="@+id/nutrition_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/five_dp"
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:layout_marginEnd="@dimen/five_dp"
+            android:paddingStart="@dimen/two_dp"
+            android:paddingEnd="@dimen/two_dp"
+            android:textColor="@color/fireflix_black"
+            android:textSize="@dimen/twenty_sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nutrition_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/five_dp"
+            android:layout_marginTop="@dimen/fifteen_dp"
+            android:layout_marginEnd="@dimen/five_dp"
+            android:paddingStart="@dimen/two_dp"
+            android:paddingEnd="@dimen/two_dp"
+            android:textSize="@dimen/fifteen_sp"
+            android:textColor="@color/fireflix_black"
+            app:layout_constraintBottom_toTopOf="@id/nutrition_check_box"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nutrition_name" />
+
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/nutrition_check_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/five_dp"
+            android:layout_marginTop="@dimen/fifteen_dp"
+            android:layout_marginEnd="@dimen/five_dp"
+            android:layout_marginBottom="@dimen/ten_dp"
+            android:paddingStart="@dimen/five_dp"
+            android:paddingEnd="@dimen/five_dp"
+            android:text="@string/tick_to_add"
+            android:buttonTint="@color/fireflix_black"
+            android:textColor="@color/fireflix_black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nutrition_description" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
