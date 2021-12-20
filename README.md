@@ -13,7 +13,7 @@ The application is successfully tested on **Xiaomi Mi A2 Device**
 Device Name : Xiaomi Mi A2 
 Screen Size : 5.99 inch 
 SDK : 29 (Android 10)
-Video : To be Uploaded soon
+Video : https://youtu.be/4ACOCBn2JtA
 
 
 **Articles** About these following topics will be published soon:
