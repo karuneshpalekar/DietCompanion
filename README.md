@@ -15,7 +15,7 @@ The application is successfully tested on **Xiaomi Mi A2 Device**
 * SDK : 29 (Android 10)
 * Video : https://youtu.be/4ACOCBn2JtA
 
-##Articles
+## Articles
 **Articles** About these following topics will be published soon:
 
 * Making A Custom Recommendation System using Tensorflow Lite and connecting it to Android Project
