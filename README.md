@@ -2,7 +2,7 @@
 # This Project is a part of Future Ready Talent Internship Program 
 
 
-### Note : Since the application is Non-Production-Ready it is built to support Android Smartphones having screen sizes greater than 6 inch and having an sdk version 29 ,i.e, Android 10 . For testing you can make use of Smartphones satisfying both these condition's or can make use on an emulator generating the required conditions.Few Features(Viewing Details about Diet,Nutrition History and Self Diet Detail Upload) are not compatible with SDK >=30 because of the Azure-Cosmos library for Android not containing an updated version of OkHttp which does not let it support SDK>=30, Rest Features(Azure B2C Authentication, Blob Storage related features and Application Insight(Azure Monitor) related features work as intended in devices having SDK>=30.
+##### Note : Since the application is Non-Production-Ready it is built to support Android Smartphones having screen sizes greater than 6 inch and having an sdk version 29 ,i.e, Android 10 . For testing you can make use of Smartphones satisfying both these condition's or can make use on an emulator generating the required conditions.Few Features(Viewing Details about Diet,Nutrition History and Self Diet Detail Upload) are not compatible with SDK >=30 because of the Azure-Cosmos library for Android not containing an updated version of OkHttp which does not let it support SDK>=30, Rest Features(Azure B2C Authentication, Blob Storage related features and Application Insight(Azure Monitor)) related features work as intended in devices having SDK>=30.
 
 
 
