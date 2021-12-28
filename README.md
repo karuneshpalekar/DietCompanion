@@ -1,6 +1,9 @@
 # DietCompanion
 # This Project is a part of Future Ready Talent Internship Program 
 
+This Project is deployed on Azure and can be downloaded from here :
+https://karunesh.blob.core.windows.net/application/DietCompanion.apk
+
 
 #### Note : Since the application is Non-Production-Ready it has been successfully tested to support Android Smartphones having screen sizes greater than 6 inch and having an sdk version 29 ,i.e, Android 10 . For testing you can make use of Smartphones satisfying both these condition's(of having screen size >=6 inch and sdk version of 29) or can make use of an emulator generating the required conditions.Few Features(Viewing Details about Diet,Nutrition History and Self Diet Detail Upload) are not compatible with SDK >=30 because of the Azure-Cosmos library(com.azure.android:azuredata) for Android not containing an updated version of OkHttp which does not let it support SDK>=30, Rest Features(Azure B2C Authentication, Blob Storage related features and Application Insight(Azure Monitor) related features) work as intended in devices having SDK>=30.
 
