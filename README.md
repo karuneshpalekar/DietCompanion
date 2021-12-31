@@ -15,7 +15,7 @@ The application is successfully tested on **Xiaomi Mi A2 Device**
 
 
 ## Articles
-**Articles** About these following topics will be published soon:
+Articles about these following topics will be published soon:
 
 * Making A Custom Recommendation System using Tensorflow Lite and connecting it to Android Project
 * Connecting Android Application to Azure Platform for Authentication via Azure Active Directory B2C.
